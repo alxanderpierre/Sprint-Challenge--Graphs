@@ -8,4 +8,4 @@ class Player:
             if (show_rooms):
                 next_room.print_room_description(self)
         else:
-            print("You cannot move in that direction.")
+            print(f"in room {self.current_room.id} You cannot move in that direction {direction}.")
